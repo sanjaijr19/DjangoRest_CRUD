@@ -16,7 +16,6 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path,include
 from app import views
-from rest_framework.urlpatterns import format_suffix_patterns
 
 
 urlpatterns = [
@@ -25,4 +24,3 @@ urlpatterns = [
 ]
 
 
-urlpatterns=format_suffix_patterns(urlpatterns)
